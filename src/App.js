@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import './myone.css'
+import Header from './Header.js'
 
 function App() {
+
+  function FireEvent()
+  {
+    window.confirm("Do you really want to contiune class?")
+  }
+
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <h2>H E L L O</h2>
+      <h1 className="change_color">Everyone</h1>
+      <Header abc="Marjan Binta Aziz" id="17103279"/>
+      <Header abc="Shila Akter" id="17103265"/>
+     
+     <button className="button_confirm" onClick={FireEvent}>Confirm</button>
     </div>
   );
 }
