@@ -1,5 +1,5 @@
 .change_color{
-    color: rgb(7, 7, 7);
+    color: rgb(192, 128, 128);
 }
 
 .button_confirm
@@ -7,4 +7,11 @@
     padding: 10px;
     border-radius: 30%;
 
+}
+
+p
+{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }

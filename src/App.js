@@ -7,15 +7,15 @@ function App() {
 
   function FireEvent()
   {
-    window.confirm("Do you really want to contiune class?")
+    window.confirm("Do you really want to confirm?")
   }
 
   
   return (
     <div className="App">
 
-      <h2>H E L L O</h2>
-      <h1 className="change_color">Everyone</h1>
+      <h1>H E L L O</h1>
+      <h2 className="change_color">Everyone</h2>
       <Header abc="Marjan Binta Aziz" id="17103279"/>
       <Header abc="Shila Akter" id="17103265"/>
      
